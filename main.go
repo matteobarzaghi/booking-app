@@ -35,4 +35,10 @@ func main() {
 	remainingTickets = remainingTickets - userWantedTickets
 	fmt.Println("Tickets left: ", remainingTickets)
 
+	// Arrays and Slices
+
+	var bookings []string
+	bookings = append(bookings, userName+" "+userLastName)
+	fmt.Printf("The whole slice: %v\n", bookings)
+
 }
